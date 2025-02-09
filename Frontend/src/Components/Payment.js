@@ -5,7 +5,7 @@ const PaymentPage = () => {
   const handlePayment = async () => {
     try {
       // Step 1: Create order from backend
-      const { data } = await axios.post("http://localhost:5000/api/payment", {
+      const { data } = await axios.post("https://order-go.onrender.com/api/payment", {
         amount: 50000, // Amount in paise (₹500)
       });
 
