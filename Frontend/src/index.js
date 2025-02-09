@@ -14,6 +14,7 @@ import Message from "./Components/TodoList";
 import Login from "./Components/login";
 import Register from "./Components/Register";
 import Contact from "./Components/contact";
+import PaymentPage from "./Components/Payment"
 const RailwayBooking = lazy(() => import("./Components/RailwayBooking"));
 
 const appRouter = createBrowserRouter([
@@ -61,6 +62,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/register",
         element: <Register />,
+      },
+                              {
+        path: "/payment",
+        element: <PaymentPage />,
       },
     ],
   },
