@@ -10,7 +10,7 @@ const app = express();
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'https://orderandgo-3.onrender.com', // Frontend URL
+  origin: 'https://order-go-1.onrender.com', // Frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 }));
