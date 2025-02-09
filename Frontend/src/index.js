@@ -63,7 +63,7 @@ const appRouter = createBrowserRouter([
         path: "/register",
         element: <Register />,
       },
-                              {
+      {
         path: "/payment",
         element: <PaymentPage />,
       },
